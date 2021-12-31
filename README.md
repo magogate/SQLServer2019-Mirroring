@@ -7,6 +7,7 @@ In such cases, considering Disaster Recovery (DR), it's ideal to have another en
 
 ## 1. Installation of Windows Server 2019 Server as Mirror Server (On-Premise)
 We are going to have 4th Virtual Machine - first 3 are - [gogate-dc-1]:Domain Controller/SAN, [gogate-node-1]:Primary Node, [gogate-node-2]:Secondary Node - as Mirror and we will add that in same Network with other 3 VMs. 
+<br> Node, for Mirror server, we are not going to have shared drives. Sole purpose of this separate server is for DR - in case if first 3 VMs goes down or something happens with SAN itself. Since Mirror server will store all SQL files locally, it will not have any depedancy on SAN or other 2 VMs.
 1. Install Windows Server 2019 by creating a Virtual Machine
 2. Change machine name 
 3. Allocate IP Address 
