@@ -32,3 +32,6 @@ We are going to have 4th Virtual Machine - first 3 are - [gogate-dc-1]:Domain Co
    - Follow same steps for both nodes
    - While logging you should be able to login as Domain Administrator user instead of local Administrator
    - Validate nodes in Domain Controller using "Active Directory Users and Computers" 
+
+## 3. Install stand alone SQL Server Instance
+   1. Before you install SQL Server instance, make sure you have internet connectivity from new mirror VM. Since you have changed the IP of already existing NIC card, its not sharing a network with your main PC & eventually even internet. Add another NIC card which will share the same IP range as your main PC.
