@@ -42,3 +42,5 @@ We are going to have 4th Virtual Machine - first 3 are - [gogate-dc-1]:Domain Co
    1. Need - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/database-mirroring-sql-server?view=sql-server-ver15
    2. Pre-requisits - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/setting-up-database-mirroring-sql-server?view=sql-server-ver15
    3. Steps - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/establish-database-mirroring-session-windows-authentication?view=sql-server-ver15
+   4. database-mirroring-error-1418 - https://dba.stackexchange.com/questions/23878/mirroring-server-network-address-cannot-be-reached
+   5. Microsoft SQL Server, Error: 1416 - https://howardsimpson.blogspot.com/2020/07/database-is-not-configured-for-database-mirroring-microsoft-sql-server-error-1416.html
