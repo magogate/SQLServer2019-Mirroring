@@ -38,3 +38,6 @@ We are going to have 4th Virtual Machine - first 3 are - [gogate-dc-1]:Domain Co
 ## 3. Install stand alone SQL Server Instance
    1. Before you install SQL Server instance, make sure you have internet connectivity from new mirror VM. Since you have changed the IP of already existing NIC card, its not sharing a network with your main PC & eventually even internet. Add another NIC card which will share the same IP range as your main PC.
    2. Install SQL server instance - GOGATE-MIRROR-1\SQLSERVERMIRROR
+## 4. Implementation
+   1. Need - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/database-mirroring-sql-server?view=sql-server-ver15
+   2. Steps - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/setting-up-database-mirroring-sql-server?view=sql-server-ver15
