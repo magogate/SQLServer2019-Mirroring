@@ -1,7 +1,7 @@
 # SQLServer2019-Mirroring
 How to enable mirroring in SQL Server
 
-<img src="SQLMirroring.jpg" alt="SQL Mirroring">
+<img src="SQLMirroring.gif" alt="SQL Mirroring">
 
 # Intruduction
 We are assuming that we already have SQL 2019 Cluster (Active / Passive) environment setup - between Node1 & Node2. However, what if both nodes goes down? or something goes wrong with SAN device?
