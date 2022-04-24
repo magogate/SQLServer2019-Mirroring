@@ -83,5 +83,5 @@ This is needed, since Full Backups and Logs backups are independant than each ot
             WHERE type IN (0,1);
          ```
  https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/pause-or-resume-a-database-mirroring-session-sql-server?view=sql-server-ver15 <br>
-   2. **Remove Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/remove-database-mirroring-sql-server?view=sql-server-ver15
-   3. **Monitor Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/monitoring-database-mirroring-sql-server?view=sql-server-ver15
+   2. **Remove Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/remove-database-mirroring-sql-server?view=sql-server-ver15 <br>
+   3. **Monitor Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/monitoring-database-mirroring-sql-server?view=sql-server-ver15 <br>
