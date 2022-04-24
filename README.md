@@ -57,7 +57,7 @@ This is needed, since Full Backups and Logs backups are independant than each ot
 
 ## 6. Pause, Resume, Stopping & Monitor Database Mirroring
    1. **Pause & Resume Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/pausing-and-resuming-database-mirroring-sql-server?view=sql-server-ver15 <br>
-   **To create log**
+ **To create log**
    ```
       begin
 
