@@ -58,6 +58,19 @@ This is needed, since Full Backups and Logs backups are independant than each ot
 ## 6. Pause, Resume, Stopping & Monitor Database Mirroring
    1. **Pause & Resume Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/pausing-and-resuming-database-mirroring-sql-server?view=sql-server-ver15
        <br>
+       **Create a table**
+       ```
+            CREATE TABLE [dbo].[Employees](
+               [id] [int] NULL,
+               [name] [varchar](40) NULL,
+               [createdOn] [datetime2](3) NULL
+            ) ON [PRIMARY]
+            GO
+
+            ALTER TABLE [dbo].[Employees] ADD  DEFAULT (getdate()) FOR [createdOn]
+            GO
+
+       ```
        **To create log**
          ```
             begin
