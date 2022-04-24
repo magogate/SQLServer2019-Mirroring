@@ -48,11 +48,11 @@ We are going to have 4th Virtual Machine - first 3 are - [gogate-dc-1]:Domain Co
       > **_RESTORE DATABASE [HR] WITH RECOVERY_**
    
 ## 5. Configuring Mirroring
-   1. Using FULL Backup - First video which we did was using Full backup of an HR database, which we restored on Mirrored Instance with "Restore No Recovery" option. and there after we just enabled the mirroring.
-   2. Using Log Backup after FULL backup - In 2nd Video, we first restored Full Backup from Principle instance to Mirrored Instance with "Restore With No Recovery" option. and before configuring the Mirroring, we took log backup. However, it gave an error and we had to restore log backup again before we actually start the mirroring.
-   3. Sub sequent backups after first Log backups - After we take first log backup of our database, we can not use only FULL backup to start the mirroring, and we had to use Last Full Backup and Last Log backup - combined - to enable the mirroring. 
+   1. **Using FULL Backup** - First video which we did was using Full backup of an HR database, which we restored on Mirrored Instance with "Restore No Recovery" option. and there after we just enabled the mirroring.
+   2. **Using Log Backup after FULL backup** - In 2nd Video, we first restored Full Backup from Principle instance to Mirrored Instance with "Restore With No Recovery" option. and before configuring the Mirroring, we took log backup. However, it gave an error and we had to restore log backup again before we actually start the mirroring.
+   3. **Sub sequent backups after first Log backups** - After we take first log backup of our database, we can not use only FULL backup to start the mirroring, and we had to use Last Full Backup and Last Log backup - combined - to enable the mirroring. 
 This is needed, since Full Backups and Logs backups are independant than each other. Please check following links for more information.
-```
+
 [Transaction log backups] (https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/transaction-log-backups-sql-server?view=sql-server-ver15)
 [Backup Resoration] (https://academy.sqlbak.com/transaction-log-backup/)
-```
+
