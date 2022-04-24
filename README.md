@@ -53,6 +53,6 @@ We are going to have 4th Virtual Machine - first 3 are - [gogate-dc-1]:Domain Co
    3. **Sub sequent backups after first Log backups** - After we take first log backup of our database, we can not use only FULL backup to start the mirroring, and we had to use Last Full Backup and Last Log backup - combined - to enable the mirroring. 
 This is needed, since Full Backups and Logs backups are independant than each other. Please check following links for more information.
 
-[Transaction log backups] (https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/transaction-log-backups-sql-server?view=sql-server-ver15)
-[Backup Resoration] (https://academy.sqlbak.com/transaction-log-backup/)
+[Transaction log backups](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/transaction-log-backups-sql-server?view=sql-server-ver15)
+[Backup Resoration](https://academy.sqlbak.com/transaction-log-backup/)
 
