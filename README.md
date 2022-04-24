@@ -55,3 +55,8 @@ This is needed, since Full Backups and Logs backups are independant than each ot
 [Transaction log backups](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/transaction-log-backups-sql-server?view=sql-server-ver15)<br>
 [Backup Resoration](https://academy.sqlbak.com/transaction-log-backup/)
 
+## 6. Pause, Resume, Stopping & Monitor Database Mirroring
+   1. **Pause & Resume Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/pausing-and-resuming-database-mirroring-sql-server?view=sql-server-ver15 <br>
+ https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/pause-or-resume-a-database-mirroring-session-sql-server?view=sql-server-ver15
+   2. **Remove Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/remove-database-mirroring-sql-server?view=sql-server-ver15
+   3. **Monitor Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/monitoring-database-mirroring-sql-server?view=sql-server-ver15
