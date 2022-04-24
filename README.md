@@ -45,5 +45,5 @@ We are going to have 4th Virtual Machine - first 3 are - [gogate-dc-1]:Domain Co
    4. database-mirroring-error-1418 - https://dba.stackexchange.com/questions/23878/mirroring-server-network-address-cannot-be-reached
    5. Microsoft SQL Server, Error: 1416 - https://howardsimpson.blogspot.com/2020/07/database-is-not-configured-for-database-mirroring-microsoft-sql-server-error-1416.html
    6. Restoring database from "Restoring State" - https://www.mssqltips.com/sqlservertip/5460/sql-server-database-stuck-in-restoring-state/
-      <b>RESTORE DATABASE [earnings] WITH RECOVERY</b>
+      <b>RESTORE DATABASE [HR] WITH RECOVERY</b>
    
