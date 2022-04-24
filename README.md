@@ -57,6 +57,30 @@ This is needed, since Full Backups and Logs backups are independant than each ot
 
 ## 6. Pause, Resume, Stopping & Monitor Database Mirroring
    1. **Pause & Resume Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/pausing-and-resuming-database-mirroring-sql-server?view=sql-server-ver15 <br>
+   **To create log**
+   ```
+      begin
+
+         Declare @cnt int = 0 ; 
+         While @Cnt<30000 
+         Begin
+            insert into Employees(id, name)
+            values(@cnt, 'Row Number' + cast(@cnt as varchar));
+            Set @cnt = @cnt + 1;
+         End;
+
+      End;
+    ```  
+   **To validate log file size**
+   ```
+      SELECT DB_NAME() AS DbName, 
+          name AS FileName, 
+          type_desc,
+          size/128.0 AS CurrentSizeMB,  
+          size/128.0 - CAST(FILEPROPERTY(name, 'SpaceUsed') AS INT)/128.0 AS FreeSpaceMB
+      FROM sys.database_files
+      WHERE type IN (0,1);
+```
  https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/pause-or-resume-a-database-mirroring-session-sql-server?view=sql-server-ver15
    2. **Remove Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/remove-database-mirroring-sql-server?view=sql-server-ver15
    3. **Monitor Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/monitoring-database-mirroring-sql-server?view=sql-server-ver15
