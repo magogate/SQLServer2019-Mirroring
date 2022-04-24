@@ -98,3 +98,6 @@ This is needed, since Full Backups and Logs backups are independant than each ot
  https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/pause-or-resume-a-database-mirroring-session-sql-server?view=sql-server-ver15 <br>
    2. **Remove Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/remove-database-mirroring-sql-server?view=sql-server-ver15 <br>
    3. **Monitor Mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/monitoring-database-mirroring-sql-server?view=sql-server-ver15 <br>
+## 7. Role Switching
+   1. **Manual Failover** -- https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/role-switching-during-a-database-mirroring-session-sql-server?view=sql-server-ver15
+   2. **Forced Service** -- https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/force-service-in-a-database-mirroring-session-transact-sql?view=sql-server-ver15
