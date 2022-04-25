@@ -102,5 +102,5 @@ This is needed, since Full Backups and Logs backups are independant than each ot
    1. **Manual Failover** -- https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/role-switching-during-a-database-mirroring-session-sql-server?view=sql-server-ver15
    2. **Forced Service** -- https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/force-service-in-a-database-mirroring-session-transact-sql?view=sql-server-ver15
       ```
-         ALTER DATABASE <database_name> SET PARTNER FORCE_SERVICE_ALLOW_DATA_LOSS
+         ALTER DATABASE HR SET PARTNER FORCE_SERVICE_ALLOW_DATA_LOSS
       ```
