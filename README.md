@@ -104,3 +104,6 @@ This is needed, since Full Backups and Logs backups are independant than each ot
       ```
          ALTER DATABASE HR SET PARTNER FORCE_SERVICE_ALLOW_DATA_LOSS
       ```
+## 8. Mirroring Monitor
+   1. **Monitoring database mirroring*** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/monitoring-database-mirroring-sql-server?view=sql-server-ver15#perf_metrics_of_dbm_monitor <br>
+   2. **How to start database mirroring** - https://docs.microsoft.com/en-us/sql/database-engine/database-mirroring/start-database-mirroring-monitor-sql-server-management-studio?view=sql-server-ver15
